@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
-import Signup from "./components/Signup.js";
+import Hero from "./components/Hero.js";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Container>
           <h1>Welcome to FitSpott</h1>
-          <Route path="/signup" component={Signup} />
+          <Hero />
         </Container>
       </main>
       <Footer />
